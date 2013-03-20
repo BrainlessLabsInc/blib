@@ -13,10 +13,6 @@
 #ifndef BOOST_CSTDINT_HPP
 #include <boost/cstdint.hpp>
 #endif
-#ifndef __STD_ALGORITHM_INCLUDED__
-#define __STD_ALGORITHM_INCLUDED__
-#include <algorithm>
-#endif
 #ifndef __STD_STRING_INCLUDED__
 #define __STD_STRING_INCLUDED__
 #include <string>
