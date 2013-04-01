@@ -13,6 +13,9 @@
 #ifndef BOOST_MPL_EMPTY_BASE_HPP_INCLUDED
 #include <boost/mpl/empty_base.hpp>
 #endif
+#ifndef __BLIB_OPERANDS_INCLUDED__
+#include <blib/odra/Operands.hpp>
+#endif
 
 namespace blib{namespace odra{namespace assembler{
    typedef boost::mpl::empty_base NullDebugger;
