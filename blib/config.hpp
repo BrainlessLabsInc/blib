@@ -1,7 +1,7 @@
 // Modified by: Shakti Misra (2013-)
 #ifndef __BLIB_CONFIG_INCLUDED__
 #define __BLIB_CONFIG_INCLUDED__
-
+// http://sourceforge.net/p/predef/wiki/Home/
 #ifndef BOOST_CONFIG_HPP
 #include <boost/config.hpp>
 #endif

@@ -93,6 +93,11 @@
 #define __BLIB_SOLARIS__	1
 #define __BLIB_OSTYPE__ 'SVR4'
 #endif
+#if defined (__ANDROID__)
+#undef __BLIB_ANDROID__
+#define __BLIB_ANDROID__	1
+#define __BLIB_OSTYPE__ 'ANDR'
+#endif
 #if defined(WIN32) || defined(_WIN32)
 #undef __BLIB_WIN32__
 #define __BLIB_WIN32__	1
