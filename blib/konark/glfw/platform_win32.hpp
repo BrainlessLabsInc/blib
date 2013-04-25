@@ -2,8 +2,14 @@
 #define __BLIB_GLFW_PLATFORM_WIN32_INCLUDED__
 
 // Include files
+#ifndef __BLIB_WINDOWS_INCLUDED__
+#define __BLIB_WINDOWS_INCLUDED__
 #include <windows.h>
+#endif
+#ifndef __BLIB_MMSYSTEM_INCLUDED__
+#define __BLIB_MMSYSTEM_INCLUDED__
 #include <mmsystem.h>
+#endif
 
 //========================================================================
 // Hack: Define things that some <windows.h>'s do not define

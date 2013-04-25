@@ -280,6 +280,10 @@
 						>
 					</File>
 					<File
+						RelativePath="..\blib\konark\glfw\enable.hpp"
+						>
+					</File>
+					<File
 						RelativePath="..\blib\konark\glfw\glfw.hpp"
 						>
 					</File>
@@ -296,6 +300,10 @@
 						>
 						<File
 							RelativePath="..\blib\konark\glfw\lib\enable.c.h"
+							>
+						</File>
+						<File
+							RelativePath="..\blib\konark\glfw\enable_win32.hpp"
 							>
 						</File>
 						<File
